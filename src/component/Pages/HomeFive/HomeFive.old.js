@@ -7,7 +7,7 @@ import Home5Feature from './Home5Feature';
 import Home5Testimonial from './Home5Testimonial';
 import Home5Faq from './Home5Faq';
 import CryptoApps from '../../Shared/CryptoApps';
-import Footer from '../../Shared/Footer';
+import Footer2 from '../../Shared/Footer2';
 import logo5 from '../../../assets/images/logo5.png'
 import logo6 from '../../../assets/images/logo6.png'
 
@@ -29,7 +29,7 @@ const HomeFive = () => {
             <Home5Testimonial />
             <Home5Faq />
             <CryptoApps />
-            <Footer
+            <Footer2
                 footerStyle="sc-footer-style-two"
                 footerLogo={logo6}
             />

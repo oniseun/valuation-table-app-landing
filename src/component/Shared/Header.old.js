@@ -55,9 +55,14 @@ const Header = (props) => {
                                         <li className="canvas sc-pr-20 sc-sm-pr-10 text-white d-lg-none">
                                             <OffCanvasMenu></OffCanvasMenu>
                                         </li>
+                                        <li>
+                                            <Link to="/login#"><i className="ri-lock-line"></i>Login </Link>
+                                        </li>
                                     </ul>
                                 </div>
-
+                                <div className="header-btn2 sc-pl-30 sc-sm-pl-20">
+                                    <Link className={signUpBtn ? signUpBtn : "sign-in-btn"} to="/signup#"><span>Sign Up</span></Link>
+                                </div>
                             </div>
                         </div>
                     </div>

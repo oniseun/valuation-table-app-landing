@@ -37,12 +37,23 @@ function App() {
       </Helmet>
 
       <Routes>
-        <Route path='/' element={<HomeFive />}></Route>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/home2' element={<HomeTwo />}></Route>
+        <Route path='/home3' element={<HomeThree />}></Route>
+        <Route path='/home4' element={<HomeFour />}></Route>
+        <Route path='/home5' element={<HomeFive />}></Route>
+        <Route path='/home6' element={<HomeSix />}></Route>
         <Route path='/about' element={<About />} ></Route>
-        <Route path='/faq' element={<Faq />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
-        <Route path='/privacy-policy' element={<BlogDetails />}></Route>
-        <Route path='/terms' element={<BlogDetails />}></Route>
+        <Route path='/blog' element={<Blog />}></Route>
+        <Route path='/blog-details' element={<BlogDetails />}></Route>
+        <Route path='/services' element={<Services />}></Route>
+        <Route path='/price' element={<Price />}></Route>
+        <Route path='/team' element={<Team />}></Route>
+        <Route path='/team-details' element={<TeamDetails />}></Route>
+        <Route path='/faq' element={<Faq />}></Route>
+        <Route path='/login' element={<Login />}></Route>
+        <Route path='/signup' element={<SignUp />}></Route>
         <Route path='*' element={<Error404 />}></Route>
       </Routes>
       <ScrollUpBtn />

@@ -20,14 +20,18 @@ const Footer = () => {
                                         <li>
                                             <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="ri-facebook-fill"></i></a>
                                         </li>
-
+                                        <li>
+                                            <a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><i className="ri-twitter-fill"></i></a>
+                                        </li>
                                         <li>
                                             <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i className="ri-linkedin-fill"></i></a>
                                         </li>
                                         <li>
                                             <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="ri-instagram-fill"></i></a>
                                         </li>
-
+                                        <li>
+                                            <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><i className="ri-pinterest-fill"></i></a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -38,8 +42,9 @@ const Footer = () => {
                                     <h4 className="footer-title white-color sc-md-mb-15">Company</h4>
                                     <ul className="footer-menu-list">
                                         <li><Link to="/about#">About Us</Link></li>
+                                        <li><Link to="/faq#">Privacy Policy</Link></li>
+                                        <li><Link to="/faq#">Terms & Conditions</Link></li>
                                         <li><Link to="/contact#">Contact</Link></li>
-                                        <li><Link to="/faq#">FAQ</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -47,10 +52,12 @@ const Footer = () => {
                         <Fade fade delay={300}>
                             <div className="col-lg-3 col-sm-6 sc-sm-mt-40">
                                 <div className="footer-menu-area sc-pl-90 sc-lg-pl-0 sc-md-pl-0">
-                                    <h4 className="footer-title white-color sc-md-mb-15">Legal Stuff</h4>
+                                    <h4 className="footer-title white-color sc-md-mb-15">Resources</h4>
                                     <ul className="footer-menu-list">
-                                        <li><Link to="/privacy-policy#">Privacy Policy</Link></li>
-                                        <li><Link to="/terms#">Terms & Conditions</Link></li>
+                                        <li><Link to="/price#">Products</Link></li>
+                                        <li><Link to="/price#">Pricing</Link></li>
+                                        <li><Link to="/faq#">FAQ</Link></li>
+                                        <li><Link to="/contact#">Careers</Link></li>
                                     </ul>
                                 </div>
                             </div>

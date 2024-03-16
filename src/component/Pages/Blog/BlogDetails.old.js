@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../../Shared/Header';
 import BreadCums from '../../Shared/BreadCums';
 import BlogDetailsData from './BlogDetailsData';
-import Footer from '../../Shared/Footer';
+import Apps from '../../Shared/Apps';
 
 const BlogDetails = () => {
     return (
@@ -14,7 +14,7 @@ const BlogDetails = () => {
             />
             <BreadCums pageTitle='Blog Details' />
             <BlogDetailsData />
-            <Footer />
+            <Apps />
         </>
     );
 };
