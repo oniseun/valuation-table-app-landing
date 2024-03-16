@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const MenuItems = (props) => {
-    const { parentMenu } = props;
     const location = useLocation();
 
     return (
