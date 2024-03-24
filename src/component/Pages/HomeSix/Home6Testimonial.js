@@ -37,7 +37,7 @@ const Home6Testimonial = () => {
                             draggable={true}
                             arrows={true}
                             pauseOnHover={true}
-                            showDots={true}
+                            showDots={false}
                             slidesToSlide={1}
                             swipeable={true}
                             autoPlay={true}
