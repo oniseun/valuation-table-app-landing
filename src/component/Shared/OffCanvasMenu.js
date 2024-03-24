@@ -24,9 +24,7 @@ const OffCanvasMenu = (props) => {
                 <Link className={location.pathname === '/' ?  'nav-link active' : 'nav-link'} to="/#">Home</Link>
             </li>
 
-                                        <li className="nav-item">
-                <Link className={location.pathname === '/about' ?  'nav-link active' : 'nav-link'} to="/about#">About Us</Link>
-            </li>
+                                       
             <li  className="nav-item"><Link className={location.pathname === '/faq' ? 'nav-link active' : 'nav-link'} to="/faq#">Faq</Link></li>
             <li className="nav-item"><Link className={location.pathname === '/contact' ? 'nav-link active' : 'nav-link'} to="/contact#">Contact</Link></li>
             <li className="nav-item"><Link className={location.pathname === '/privacy-policy' ? 'nav-link active' : 'nav-link'} to="/privacy-policy#">Privacy Policy</Link></li>

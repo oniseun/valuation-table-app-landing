@@ -10,9 +10,6 @@ const MenuItems = (props) => {
             <li>
                 <Link className={location.pathname === '/' ? 'active' : ''} to="/#">Home</Link>
             </li>
-            <li>
-                <Link className={location.pathname === '/about' ? 'active' : ''} to="/about#">About Us</Link>
-            </li>
             <li><Link className={location.pathname === '/faq' ? 'active' : ''} to="/faq#">Faq</Link></li>
             <li><Link className={location.pathname === '/contact' ? 'active' : ''} to="/contact#">Contact</Link></li>
             <li><Link className={location.pathname === '/privacy-policy' ? 'active' : ''} to="/privacy-policy#">Privacy Policy</Link></li>

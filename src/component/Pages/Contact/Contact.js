@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../../Shared/Header';
 import BreadCums from '../../Shared/BreadCums';
 import ContactInfo from './ContactInfo';
-import Apps from '../../Shared/Apps';
 import Footer from '../../Shared/Footer';
 
 const Contact = () => {
@@ -14,7 +13,6 @@ const Contact = () => {
             />
             <BreadCums pageTitle='Contact Us' />
             <ContactInfo />
-            <Apps />
             <Footer />
         </>
     );

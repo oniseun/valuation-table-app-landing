@@ -21,7 +21,7 @@ const Home6Testimonial = () => {
 
     return (
         <>
-            <section className="sc-service-section-area6 sc-testimonial-style2 sc-pt-135 sc-pb-170 sc-md-pt-70 sc-md-pb-80">
+            <section className="sc-testimonial-area sc-testimonial-style3 sc-pt-135 sc-pb-170 sc-md-pt-70 sc-md-pb-80">
                 <div className="container position-relative">
                     <div className="row">
                         <div className="col-md-6 offset-md-3">
@@ -37,10 +37,9 @@ const Home6Testimonial = () => {
                             draggable={true}
                             arrows={true}
                             pauseOnHover={true}
-                            showDots={true}
                             slidesToSlide={1}
                             swipeable={true}
-                            autoPlay={true}
+                            autoPlay={false}
                             autoPlaySpeed={3000}
                             customRightArrow={<CustomRightArrow />}
                             customLeftArrow={<CustomLeftArrow />}
@@ -111,6 +110,26 @@ const Home6Testimonial = () => {
                                 <div className="digination white-color">Product Designer</div>
                             </div>
                         </Carousel>
+                    </div>
+                    <div className="image-wrap">
+                        <div className="test_left_imgage">
+                            <img src={groupImg} width="82" height="82" alt="Test" />
+                        </div>
+                        <div className="test_left_imgage1">
+                            <img src={groupImg1} width="60" height="60" alt="Test" />
+                        </div>
+                        <div className="test_left_imgage2">
+                            <img src={groupImg2} width="82" height="82" alt="Test" />
+                        </div>
+                        <div className="test_right_imgage">
+                            <img src={groupImg3} width="82" height="82" alt="Test" />
+                        </div>
+                        <div className="test_right_imgage1">
+                            <img src={groupImg4} width="60" height="60" alt="Test" />
+                        </div>
+                        <div className="test_right_imgage2">
+                            <img src={groupImg5} width="82" height="82" alt="Test" />
+                        </div>
                     </div>
                 </div>
             </section>

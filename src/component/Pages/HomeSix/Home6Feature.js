@@ -8,7 +8,7 @@ const Home6Feature = () => {
     return (
         <>
             <section className="sc-section-bg">
-                <div className="sc-crupto-style-five sc-pt-135 sc-md-pt-75">
+                <div className="sc-crupto-section-area2 sc-pt-135 sc-md-pt-75 sc-pb-135 sc-md-pb-75">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6">
@@ -22,9 +22,9 @@ const Home6Feature = () => {
                                 <Fade right>
                                     <div className="sc-crupto-content-two sc-md-pr-0 sc-sm-pr-0">
                                         <div className="sc-heading-area sc-mb-20">
-                                            <h2 className="heading-title sc-mb-25 white-color">Exchange Your Crypto Or Tokens In A <span className="yellowColor">Minutes</span></h2>
+                                            <h2 className="heading-title sc-mb-25 white-color">Do you have an idea ? <span className="yellowColor">Minutes</span></h2>
                                             <div className="description sc-mb-25 white-dark-color">
-                                                In cursus turpis massa tincidunt dui ut ornare. Eu consequat ac felis donec et odio pellentesque diam volutpat. Nibh praesent tristique
+                                                We welcome any ideas on how to improve tis product. In cursus turpis massa tincidunt dui ut ornare. Eu consequat ac felis donec et odio pellentesque diam volutpat. Nibh praesent tristique
                                                 magna sit amet purus gravida quis. Dictum non consectetur at lectus urna duis.
                                             </div>
                                         </div>
@@ -36,7 +36,8 @@ const Home6Feature = () => {
                                             </ul>
                                         </div>
                                         <div className="crupto-btn">
-                                            <Link className="sc-yellow-btn" to="/signup#"><span>Get Started</span></Link>
+                                            <Link className="sc-yellow-transparent2 sc-mr-15" to="/faq#"><span>FAQ</span></Link>
+                                            <Link className="sc-yellow-btn" to="/contact#"><span>Contact Us</span></Link>
                                         </div>
                                     </div>
                                 </Fade>
@@ -44,39 +45,7 @@ const Home6Feature = () => {
                         </div>
                     </div>
                 </div>
-                <div className="sc-feature-section-area sc-pt-125 sc-pb-135 sc-md-pt-60 sc-md-pb-75">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6">
-                                <Fade bottom >
-                                    <div className="sc-feature-item sc-md-mb-40">
-                                        <div className="sc-heading-area sc-mb-25">
-                                            <h2 className="heading-title white-color">Tons Of Features Just In Single <span className="yellowColor">App</span></h2>
-                                        </div>
-                                        <p className="des sc-mb-25 white-dark-color">
-                                            Objectively network orthogonal infrastructures rather than empowered architectures. Holisticly conceptualize backend architectures without
-                                            extensible intellectual capital synergistically reintermediate
-                                        </p>
-                                        <p className="des sc-mb-35 white-dark-color">
-                                            Mission-critical quality vectors and magnetic catalysts for change. Seamlessly revolutionize e-business infomediaries without customer directed
-                                            action items. Collaboratively conceptualize team driven
-                                        </p>
-                                        <div className="crupto-btn">
-                                            <Link className="sc-yellow-btn" to="/signup#"><span>Get Started</span></Link>
-                                        </div>
-                                    </div>
-                                </Fade>
-                            </div>
-                            <div className="col-lg-6">
-                                <Fade bottom delay={250}>
-                                    <div className="feature-image-area shake-y">
-                                        <img src={appsImage3} alt="Images" />
-                                    </div>
-                                </Fade>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </section>
         </>
     );

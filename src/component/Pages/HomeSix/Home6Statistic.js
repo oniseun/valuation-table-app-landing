@@ -15,7 +15,7 @@ const Home6Statistic = () => {
             <section className="sc-crupto-section-area2 sc-pt-140 sc-md-pt-70 sc-pb-115 sc-md-pb-55">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6">
+                        <div className="col-lg-10">
                             <Fade bottom>
                                 <div className="sc-crupto-content sc-pr-70 sc-md-pr-0 sc-md-mb-50">
                                     <div className="sc-heading-area sc-mb-25">
@@ -24,75 +24,13 @@ const Home6Statistic = () => {
                                     <p className="des white-dark-color sc-mb-35">
                                         Tellus in metus vulputate eu. Maecenas accumsan lacus vel facilisis volutpat. Enim praesent elementum facilisis.
                                     </p>
+                                    <div className="sc-crupto-content sc-pr-70 sc-md-pr-0 sc-md-mb-50 align-items-right">
                                     <div className="crupto-btn">
-                                        <Link className="sc-yellow-btn" to="/signup#"><span>Get Started</span></Link>
+                                        <Link className="sc-yellow-btn" to="/contact#"><span>Contact Us</span></Link>
                                     </div>
+                                </div>
                                 </div>
                             </Fade>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="row">
-                                <div className="col-lg-6 col-md-6 col-sm-6">
-                                    <div className="sc-crupto-item sc-mb-25">
-                                        <div className="sc-crupto-content-box d-flex align-items-center sc-mb-20">
-                                            <div className="sc-crupto-icon">
-                                                <img src={cryptoIcon4} alt="Images" />
-                                            </div>
-                                            <div className="sc-content">
-                                                <h4 className="title white-color">Eth</h4>
-                                                <span className="white-dark-color">Ethereum</span>
-                                            </div>
-                                        </div>
-                                        <div className="sc-crupto-text sc-red-color sc-mb-15">−1,777.64 (1.28%) <i className="ri-arrow-down-line"></i></div>
-                                        <img className="sc-shape" src={cryptoShape} alt="Images" />
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6 col-sm-6">
-                                    <div className="sc-crupto-item sc-crupto-item-two sc-mb-25">
-                                        <div className="sc-crupto-content-box d-flex align-items-center sc-mb-20">
-                                            <div className="sc-crupto-icon">
-                                                <img src={cryptoIcon5} alt="Images" />
-                                            </div>
-                                            <div className="sc-content">
-                                                <h4 className="title white-color">Btc</h4>
-                                                <span className="white-dark-color">Bitcoin</span>
-                                            </div>
-                                        </div>
-                                        <div className="sc-crupto-text sc-blue-color">+1,775 (1.20%) <i className="ri-arrow-up-line"></i></div>
-                                        <img className="sc-shape" src={cryptoShape1} alt="Images" />
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6 col-sm-6">
-                                    <div className="sc-crupto-item sc-crupto-item-two sc-mb-25">
-                                        <div className="sc-crupto-content-box d-flex align-items-center sc-mb-20">
-                                            <div className="sc-crupto-icon">
-                                                <img src={cryptoIcon6} alt="Images" />
-                                            </div>
-                                            <div className="sc-content">
-                                                <h4 className="title white-color">Btc</h4>
-                                                <span className="white-dark-color">Dogicoin</span>
-                                            </div>
-                                        </div>
-                                        <div className="sc-crupto-text sc-blue-color">+1,775 (1.20%) <i className="ri-arrow-up-line"></i></div>
-                                        <img className="sc-shape" src={cryptoShape2} alt="Images" />
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6 col-sm-6">
-                                    <div className="sc-crupto-item sc-crupto-item-two sc-mb-25">
-                                        <div className="sc-crupto-content-box d-flex align-items-center sc-mb-20">
-                                            <div className="sc-crupto-icon">
-                                                <img src={cryptoIcon7} alt="Images" />
-                                            </div>
-                                            <div className="sc-content">
-                                                <h4 className="title white-color">Tether</h4>
-                                                <span className="white-dark-color">Tether</span>
-                                            </div>
-                                        </div>
-                                        <div className="sc-crupto-text sc-red-color sc-mb-15">+1,775 (1.20%) <i className="ri-arrow-down-line"></i></div>
-                                        <img className="sc-shape" src={cryptoShape} alt="Images" />
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -37,7 +37,7 @@ const Footer = () => {
                                 <div className="footer-menu-area sc-pl-90 sc-lg-pl-0 sc-md-pl-0 sc-md-mb-30 sc-sm-mb-0">
                                     <h4 className="footer-title white-color sc-md-mb-15">Company</h4>
                                     <ul className="footer-menu-list">
-                                        <li><Link to="/about#">About Us</Link></li>
+                                    <li><Link to="/#">Home</Link></li>
                                         <li><Link to="/contact#">Contact</Link></li>
                                         <li><Link to="/faq#">FAQ</Link></li>
                                     </ul>
